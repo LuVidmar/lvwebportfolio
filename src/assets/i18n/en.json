@@ -1,0 +1,85 @@
+{
+    "MAINPAGE": {
+        "MYPROFILE": {
+            "TITLE": "My Profile",
+            "DESC": "If you are interested in checking out my Curriculum Vitae, this is the section you are looking for."
+        },
+        "BLOG": {
+            "TITLE": "Personal Blog",
+            "DESC": "COMING SOON | In this section I will write weekly publications about anything you can think of."
+        },
+        "IMPOSSIBLELIST": {
+            "TITLE": "Impossible List",
+            "DESC": "Check out the bucket of things I want to do before I pass on."
+        },
+        "ABOUTME": {
+            "TITLE": "About Me",
+            "DESC": "I'm passionate about tech, entrepreneurship and design. I am an electronics engineering & economics student and I work part-time."
+        },
+        "MAINTEXT": "Welcome to my website, I designed this virtual space with the intention of putting together all my info, ideas and interests in one place, and make them accessible to the world.",
+        "VIEWMORE": "View More"
+    },
+    "IMPOSSIBLELIST": {
+        "TITLE": "My Impossible List",
+        "TEXT1": "Inspired by",
+        "TEXT2": ", in 2020 and with a lot of time in my hands, I decided to think about 100 things I would like to do (or at least attemp to) before I die. \n After much thought, early in 2021 I decided to go public to make myself accountable. These are the things I came up with."
+    },
+    "PROFILE": {
+        "PAGETITLE": "My Profile",
+        "EDUCATION": {
+            "TITLE": "Education",
+            "ED1.0": "Argentine University of Enterprise",
+            "ED1.1": "Electronics Engineering",
+            "ED1.2": "2018 - present",
+            "ED2.0": "Argentine University of Enterprise",
+            "ED2.1": "Economics",
+            "ED2.2": "2021 - present",
+            "ED3.0": "National University of Lomas de Zamora",
+            "ED3.1": "Industrial Tech. Baccalaureate",
+            "ED3.2": "2011 - 2017",
+            "TAGS": {
+                "BACHELOR": "Undergrad.",
+                "GRAD": "Grad.",
+                "HIGH": "Highschool"
+            }
+        },
+        "SKILLS": {
+            "LIST" : [
+                "Assembly",
+                "TS",
+                "JS",
+                "C",
+                "C++",
+                "C#",
+                "HTML",
+                "CSS",
+                "Angular",
+                "Android Studio",
+                "Python",
+                "Arduino",
+                "Raspberry Pi",
+                "CNC",
+                "Arc Welding",
+                "Pneumatics",
+                "Photo production",
+                "Graphic Design",
+                "Video production",
+                "AutoCad",
+                "SolidWorks"
+            ],
+            "TITLE": "Skills"
+        },
+        "WORK": {
+            "TITLE": "Work Experience",
+            "EX1.0": "Trama ITBA",
+            "EX1.1": "IT Coordinator",
+            "EX1.2": "jun 2020 - dec 2020",
+            "EX2.0": "IEEE Student Chapter ITBA",
+            "EX2.1": "Webmaster & Editor",
+            "EX2.2": "mar 2020 - dec 2020",
+            "EX3.0": "Freelancing",
+            "EX3.1": "Development, Tutor, Designer",
+            "EX3.2": "2017 - 2022"
+        }
+    }
+}

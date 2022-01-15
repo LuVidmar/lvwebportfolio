@@ -1,0 +1,86 @@
+{
+    "MAINPAGE": {
+        "MYPROFILE": {
+            "TITLE": "Mi Perfil",
+            "DESC": "Si estás interesado en mi Curriculum Vitae, esta es la sección que buscabas."
+        },
+        "BLOG": {
+            "TITLE": "Blog Personal",
+            "DESC": "PRÓXIMAMENTE | En esta sección escribiré publicaciones semanales sobre los temas más variados."
+        },
+        "IMPOSSIBLELIST": {
+            "TITLE": "Lista Imposible",
+            "DESC": "Mi lista de cosas que quiero hacer antes de pasar a la próxima vida."
+        },
+        "ABOUTME": {
+            "TITLE": "Acerca de Mi",
+            "DESC": "Soy un apasionado de la tecnología, el emprendedurismo y el diseño. Estudio ingeniería electrónica & economía y trabajo part-time."
+        },
+        "MAINTEXT": "Bienvenido a mi sitio web, diseñé este espacio virtual con la intención de reunir toda mi información, ideas e intereses en un solo lugar, y hacerlo accesible al mundo entero.",
+        "VIEWMORE": "Ver Más"
+
+    },
+    "IMPOSSIBLELIST": {
+        "TITLE": "Mi Lista Imposible",
+        "TEXT1": "Inspirado por",
+        "TEXT2": ", en 2020 y con mucho tiempo entremanos decidí pensar en 100 cosas que me gustaría (o al menos intentar) hacer antes de morir. \n Luego de pensar detenidamente, a principios de 2021 decidí hacerla pública para responsabilizarme sobre el progreso. Estas son las cosas en las que pensé."
+    },
+    "PROFILE": {
+        "PAGETITLE": "Mi Perfil",
+        "EDUCATION": {
+            "TITLE": "Educación",
+            "ED1.0": "Universidad Argentina de la Empresa",
+            "ED1.1": "Ingeniería Electrónica",
+            "ED1.2": "2018 - actualidad",
+            "ED2.0": "Universidad Argentina de la Empresa",
+            "ED2.1": "Licenciatura en Economía",
+            "ED2.2": "2021 - actualidad",
+            "ED3.0": "Universidad Nacional de Lomas de Zamora",
+            "ED3.1": "Bachiller Tecnológico Industrial",
+            "ED3.2": "2011 - 2017",
+            "TAGS": {
+                "BACHELOR": "Carrera de Grado",
+                "GRAD": "Posgrado",
+                "HIGH": "Highschool"
+            }
+        },
+        "SKILLS": {
+            "LIST": [
+                "Assembly",
+                "TS",
+                "JS",
+                "C",
+                "C++",
+                "C#",
+                "HTML",
+                "CSS",
+                "Angular",
+                "Android Studio",
+                "Python",
+                "Arduino",
+                "Raspberry Pi",
+                "CNC",
+                "Soldadura de arco",
+                "Neumática",
+                "Producción de fotos",
+                "Diseño gráfico",
+                "Producción de video",
+                "AutoCad",
+                "SolidWorks"
+            ],
+            "TITLE": "Habilidades"
+        },
+        "WORK": {
+            "TITLE": "Experiencia Laboral",
+            "EX1.0": "Trama ITBA",
+            "EX1.1": "Coordinador IT",
+            "EX1.2": "jun 2020 - dic 2020",
+            "EX2.0": "IEEE Student Chapter ITBA",
+            "EX2.1": "Webmaster & Editor",
+            "EX2.2": "mar 2020 - dic 2020",
+            "EX3.0": "Freelancing",
+            "EX3.1": "Desarrollador, Tutor, Diseñador",
+            "EX3.2": "2017 - 2022"
+        }
+    }
+}

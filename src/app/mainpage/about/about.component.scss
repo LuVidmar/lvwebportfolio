@@ -1,0 +1,16 @@
+#profPhoto{
+    height: 250pt;
+    width: 200pt;
+    background-color: var(--yellow-color);
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5pt;
+}
+
+h1{
+    font-size: calc(40pt + 1vmax);
+    font-weight: 600;
+}

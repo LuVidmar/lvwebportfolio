@@ -1,0 +1,23 @@
+<br>
+<div style="width: 100%; height: 100%; background-color: var(--middle-grey);">
+    <div class="container">
+        <br>
+        <h1>{{'IMPOSSIBLELIST.TITLE' | translate}}</h1>
+        <br>
+        <h3>
+            {{'IMPOSSIBLELIST.TEXT1' | translate}}<a target="blank" href="https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/#:~:text=Put%20simply%2C%20the%20impossible%20list,implore%20you%20to%20take%20action."> Thomas Frank</a>
+            {{'IMPOSSIBLELIST.TEXT2' | translate}}
+        </h3>
+    </div>
+    
+    <app-loading-bar></app-loading-bar>
+    
+    <div class="container">
+        <br>
+        <div class="thingToDo" *ngFor="let item of list | async" [id]="item.number">
+            <h2>{{item.number +' - '+ item.title}}</h2>
+            <h4>{{item.desc}}</h4>
+            <hr>
+        </div>
+    </div>
+</div>

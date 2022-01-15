@@ -1,0 +1,18 @@
+.container{
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item{
+    height: 25pt;
+    width: 25pt;
+    line-height: 12.5pt;
+    text-align: center;
+    margin-left: 5pt;
+    font-size: 9pt;
+    padding: 5pt;
+    border-radius: 25pt;
+    cursor: pointer;
+}

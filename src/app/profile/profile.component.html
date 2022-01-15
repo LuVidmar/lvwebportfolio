@@ -1,0 +1,126 @@
+<div class="container">
+    <h1>{{'PROFILE.PAGETITLE' | translate}}</h1>
+</div>
+<div class="container-xxl">
+    <br>
+    <div class="row g-3">
+        <!-- Education -->
+        <div class="col-lg fcol" style="background-color: var(--white-color);">
+            <h3>{{'PROFILE.EDUCATION.TITLE' | translate}}</h3>
+            <br>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-5">
+                                <app-photo-overlay initialHeight="20pt" imageLink="../../assets/logos/uade.svg" text="PROFILE.EDUCATION.ED1.0"></app-photo-overlay>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    {{'PROFILE.EDUCATION.ED1.1' | translate}}
+                                </div>
+                                <div style="opacity: 0.7">
+                                    {{'PROFILE.EDUCATION.ED1.2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-5">
+                                <app-photo-overlay initialHeight="20pt" imageLink="../../assets/logos/uade.svg" text="PROFILE.EDUCATION.ED2.0"></app-photo-overlay>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    {{'PROFILE.EDUCATION.ED2.1' | translate}}
+                                </div>
+                                <div style="opacity: 0.7">
+                                    {{'PROFILE.EDUCATION.ED2.2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-5">
+                                <app-photo-overlay initialHeight="40pt" imageLink="../../assets/logos/unlz.svg" text="PROFILE.EDUCATION.ED3.0"></app-photo-overlay>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    {{'PROFILE.EDUCATION.ED3.1' | translate}}
+                                </div>
+                                <div style="opacity: 0.7">
+                                    {{'PROFILE.EDUCATION.ED3.2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Skills -->
+        <div class="col-lg fcol" style="background-color: var(--grey-color);">
+            <h3>{{'PROFILE.SKILLS.TITLE' | translate}}</h3>
+            <br>
+            <div class="fcontainer">
+                <div *ngFor="let skill of skills" class="pill">{{skill}}</div>
+            </div>
+        </div>
+        <!-- Work Experience -->
+        <div class="col-lg fcol" style="background-color: var(--white-color);">
+            <h3>{{'PROFILE.WORK.TITLE' | translate}}</h3>
+            <br>
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-5">
+                                <app-photo-overlay initialHeight="30pt" imageLink="../../assets/logos/trama.svg" text="PROFILE.WORK.EX1.0"></app-photo-overlay>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    {{'PROFILE.WORK.EX1.1' | translate}}
+                                </div>
+                                <div style="opacity: 0.7">
+                                    {{'PROFILE.WORK.EX1.2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-5">
+                                <app-photo-overlay initialHeight="30pt" imageLink="../../assets/logos/ieee.svg" text="PROFILE.WORK.EX2.0"></app-photo-overlay>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    {{'PROFILE.WORK.EX2.1' | translate}}
+                                </div>
+                                <div style="opacity: 0.7">
+                                    {{'PROFILE.WORK.EX2.2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-5">
+                                <app-photo-overlay initialHeight="37pt" imageLink="../../assets/logos/freelancing.svg" text="PROFILE.WORK.EX3.0"></app-photo-overlay>
+                            </div>
+                            <div class="col-7">
+                                <div>
+                                    {{'PROFILE.WORK.EX3.1' | translate}}
+                                </div>
+                                <div style="opacity: 0.7">
+                                    {{'PROFILE.WORK.EX3.2' | translate}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br>

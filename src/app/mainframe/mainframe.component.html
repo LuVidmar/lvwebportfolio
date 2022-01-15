@@ -1,0 +1,14 @@
+<div class="container">
+    <div id="en" class="item" style="background-color: var(--white-color);" (click)="useLanguage('en')">
+        EN
+    </div>
+    <div id="es" class="item" style="background-color: var(--grey-color);" (click)="useLanguage('es')">
+        ES
+    </div>
+    <div class="item" style="background-color: var(--white-color);">
+        <i class="fas fa-moon"></i>
+    </div>
+    <div class="item" style="background-color: var(--yellow-color);" [routerLink]="['/']">
+        <i class="fas fa-home"></i>
+    </div>
+</div>

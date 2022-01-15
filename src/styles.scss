@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+ 
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,400;1,600&display=swap');
+
+:root {
+    --grey-color: #dcdcdc;
+    --white-color: whitesmoke;
+    --yellow-color: #fffacd;
+    --dark-color: #262626;
+}
+
+.darkColored{
+    filter: invert(6%) sepia(6%) saturate(8%) hue-rotate(316deg) brightness(93%) contrast(79%);
+}
+
+h1,h2,h3,p,div{
+    font-family: 'Montserrat', sans-serif;
+}

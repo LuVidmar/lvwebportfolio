@@ -1,0 +1,32 @@
+h1{
+    font-size: calc(20pt + 4vmax);
+    font-weight: 600;
+    background-color: var(--yellow-color);
+    width: fit-content;
+    border-radius: 5pt;
+}
+
+.fcol{
+    padding: 20pt;
+    border-radius: 5pt;
+    margin: 5pt;
+    height: fit-content;
+}
+
+.fcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pill{
+    background-color: var(--yellow-color);
+    padding: 2pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    border-radius: 25pt;
+    margin: 1pt;
+    margin-top: 2pt;
+}

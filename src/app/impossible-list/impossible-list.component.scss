@@ -1,0 +1,21 @@
+h1{
+    font-size: calc(20pt + 4vmax);
+    font-weight: 600;
+    background-color: var(--yellow-color);
+    width: fit-content;
+    border-radius: 5pt;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+h3{
+    padding: 10pt;
+    background-color: var(--dark-grey);
+    border-radius: 10pt;
+}
+
+a{
+    font-style: italic;
+}

@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.fb{
+    padding: 20pt;
+    border-radius: 5pt;
+    margin: 5pt;
+}
+
+.link{
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(#262626,0.3);
+    width: fit-content;
+    transition: all ease-in-out 250ms;
+}
+
+p{
+    opacity: 0.8;
+}
+
+.link:hover{
+    border-bottom: 2px solid var(--dark-color);
+}
+
+@media screen and (min-width: 610px) {
+
+    .fb{
+        height: 200pt;
+        width: 200pt;
+    }
+
+    .container{
+        justify-content: center;
+    }
+    
+}

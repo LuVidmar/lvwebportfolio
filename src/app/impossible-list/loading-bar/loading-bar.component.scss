@@ -1,0 +1,26 @@
+.square{
+    background-color: var(--yellow-color);
+    width: 25pt;
+    height: 25pt;
+    text-align: center;
+    cursor: pointer;
+    line-height: 25pt;
+    transition: all ease-in-out 250ms;
+    border-radius: 5pt;
+    margin: 1pt;
+}
+
+.square:hover{
+    opacity: 0.5;
+}
+
+.container {
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    background-color: var(--dark-grey);
+    min-width: 100%;
+}

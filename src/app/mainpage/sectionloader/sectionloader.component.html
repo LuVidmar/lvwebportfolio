@@ -1,0 +1,9 @@
+<div class="container">
+    <div *ngFor="let section of sections" class="fb" [ngStyle]="{'background-color': section.color}">
+        <h3>{{section.title | translate}}</h3>
+        <p>
+            {{section.desc | translate}}
+        </p>
+        <div class="link" *ngIf="section.link" [routerLink]="[section.link]">{{'MAINPAGE.VIEWMORE' | translate}}</div>
+    </div>
+</div>

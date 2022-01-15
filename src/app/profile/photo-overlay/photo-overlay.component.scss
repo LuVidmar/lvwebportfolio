@@ -1,0 +1,22 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+    height: 100% !important;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    transition: all ease-in-out 250ms;
+}
+
+.mask p{
+    font-style: italic;
+    text-align: center;
+    position: relative !important;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 10pt;
+    line-height: 10pt;
+}
